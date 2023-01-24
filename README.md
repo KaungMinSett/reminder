@@ -29,12 +29,7 @@ Technology
 
 #### RoadMap
 - [x] Tasks panel + drawer (23.1.23 - 30.1.23)
-- [x] 
-- [x] 
-- [x] 
-- [x] 
-- [x] 
-- [x] 
+ 
 </html>
 
 
