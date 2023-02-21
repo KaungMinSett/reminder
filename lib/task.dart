@@ -12,7 +12,7 @@ class _TasksState extends State<Tasks> with TickerProviderStateMixin {
 
   int _selectedIndex = 0;
   final List<String> _tabs = ["All", "Work", "Personal", "Birthday"];
-  Color task_color = Colors.black12.withOpacity(0.0) ;
+  Color? task_color = Colors.grey[350] ;
 
 
 

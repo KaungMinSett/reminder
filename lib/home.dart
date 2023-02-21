@@ -191,7 +191,11 @@ class HomeState extends State<Home> {
                             borderRadius: BorderRadius.circular(10),
                           ),
                           child: TextFormField(
+                            style: TextStyle(
+                              fontSize: 18,
+                            ),
                             decoration: const InputDecoration(
+
                               hintText: 'Add new Task Here',
                               border: InputBorder.none,
                             ),
@@ -247,15 +251,20 @@ class HomeState extends State<Home> {
                                 IconButton(onPressed: ()
                                     {
 
-                                    }, icon: Icon(Icons.edit_calendar_sharp)),
+                                    },
+                                    icon: Icon(Icons.edit_calendar_sharp),
+                                  color:const Color(0xff345c82).withOpacity(0.5) ,
+                                ),
                                 IconButton(onPressed: ()
                                     {
 
-                                    }, icon: Icon(Icons.subdirectory_arrow_left)),
+                                    }, icon: Icon(Icons.subdirectory_arrow_left),
+                                  color:const Color(0xff345c82).withOpacity(0.5) ,),
                                 IconButton(onPressed: ()
                                     {
 
-                                    }, icon: Icon(Icons.event_note_sharp)),
+                                    }, icon: Icon(Icons.event_note_sharp),
+                                  color:const Color(0xff345c82).withOpacity(0.5) ,),
 
 
 
