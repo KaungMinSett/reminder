@@ -1,7 +1,7 @@
 # reminder
 
 
-This project is intended to help users to do daily tasks and remind events.
+This project is intended to help users to do daily tasks and remind events. Its speciality is unlike most apps, it will ring the alarm or pop up notifications along with sound based on your choice
 
 Functionality
 - Sign in
